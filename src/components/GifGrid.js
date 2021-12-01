@@ -32,7 +32,10 @@ export const GifGrid = ({category}) => {
             <ol>
                 {
                     images.map((img) => (
-                        <GifGridItem img={img} key={img.id}/>
+                        <GifGridItem 
+                            key={img.id}
+                            {...img}
+                        />
                     ))
                 }
             </ol>
