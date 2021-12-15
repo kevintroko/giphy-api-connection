@@ -9,7 +9,7 @@ describe('Fist app', () => {
         let wrapper;
     
         beforeEach(() => {    
-            wrapper = shallow(<GifGridItem />); 
+            wrapper = shallow(<GifGridItem title={title} url={url}/>); 
         });
         
         test('should match snapshot', () => {  
