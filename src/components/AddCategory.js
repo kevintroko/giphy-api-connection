@@ -20,6 +20,7 @@ const AddCategory = ({setCategories}) => {
         <input 
             type="text"
             value={value}
+            placeholder='Enter a value'
             onChange={ handleInputChange }
         />
     </form>
